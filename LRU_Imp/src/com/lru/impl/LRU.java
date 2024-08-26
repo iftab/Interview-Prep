@@ -13,7 +13,7 @@ public class LRU {
         lru.put(4, 14);
         lru.printNodeElementInOrder();
         System.out.println();
-        System.out.println(lru.get(4));
+        System.out.println(lru.get(2));
         lru.printNodeElementInOrder();
         System.out.println();
 	}
