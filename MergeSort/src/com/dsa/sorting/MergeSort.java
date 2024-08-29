@@ -3,6 +3,14 @@ package com.dsa.sorting;
 import java.util.Arrays;
 
 public class MergeSort {
+	/*
+	 * 1. Divide & Conquer Technique.
+	 * 2. Recursive Algorithm.
+	 * 3. Two Phases : Splitting & Merging.
+	 * 4. Splitting phase leads to faster sorting during the merging phase.
+	 * 5. Splitting is logical.
+	 * 
+	 * */
 
 	public static void main(String[] args) {
 		
