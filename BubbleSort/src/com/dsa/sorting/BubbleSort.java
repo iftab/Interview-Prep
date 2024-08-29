@@ -16,8 +16,8 @@ public class BubbleSort {
 	public static void main(String[] args) {
 		int[] input = {1, 32, 4, 2, 1, 223, 43, 9};
 		
-		for(int i = input.length -1 ; i > 0; i--) {
-			for(int j = 0 ; j < i; j++) {
+		for(int unsortedIndex = input.length -1 ; unsortedIndex > 0; unsortedIndex--) {
+			for(int j = 0 ; j < unsortedIndex; j++) {
 				if(input[ j+1 ] < input[ j ]) {
 					swap(input, j+1, j);
 				}
