@@ -24,14 +24,13 @@ public class ShellSort {
 				for(int i = gap; i < n; i++) {
 					 int temp = input[i];
 
-		                // shift earlier gap-sorted elements up until
-		                // the correct location for a[i] is found
+		             
 		                int j;
-		                for (j = i; j >= gap && input[j - gap] > temp; j -= gap)
+		                for (j = i; j >= gap && input[j - gap] > temp; j -= gap) {
 		                    input[j] = input[j - gap];
+		                }
 
-		                // put temp (the original a[i]) in its correct
-		                // location
+		          
 		                input[j] = temp;
 				}
 			}
