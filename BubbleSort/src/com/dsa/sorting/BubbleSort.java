@@ -3,8 +3,9 @@ package com.dsa.sorting;
 import java.util.Arrays;
 
 public class BubbleSort {
-	/*In-place sorting algorithm
-	 * Takes O(n^2)
+	/* 1.In-place sorting algorithm
+	 * 2. Takes O(n^2) time complexity.
+	 * 3. Preserve the order of the duplicate elements.
 	 * */
 	
 	public static void swap(int[] arr, int index_1, int index_2) {
@@ -23,7 +24,8 @@ public class BubbleSort {
 				}
 			}
 		}
-		// Printing Output
+		
+		/*Print Elements in Array*/
 		Arrays.stream(input).forEach(s -> System.out.print(s+"\t"));
 	}
 
