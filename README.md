@@ -13,6 +13,9 @@
   Using two **for**  to iterate through the array and find a pair of others.
   Time Complexity: O(N^2), where N = array size.
 
-**Approach 2: Better Approach** [ Approach ] (https://github.com/iftab/Interview-Prep/blob/main/2Sum.java)
-  Using hashing technique. Keep checking for the required item in hashMap<Element, index> is existing and pair found.
+**Approach 2: Better Approach**
+ **[ Implementation ](https://github.com/iftab/Interview-Prep/blob/main/2Sum.java)**  Using hashing technique. Keep checking for the required item in hashMap<Element, index> is existing and pair found.
   
+# Best time to Buy and Sell stock.
+**[ Implementation ](https://github.com/iftab/Interview-Prep/blob/main/BuyStock.java)**
+    Consider selling stock every day and keep track of the minimum cost before that index.
