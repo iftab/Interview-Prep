@@ -18,16 +18,20 @@
 **Approach 2: Better Approach**
  **[ Implementation ](https://github.com/iftab/Interview-Prep/blob/main/2Sum.java)**  Using hashing technique. Keep checking for the required item in hashMap<Element, index> is existing and pair found.
   
-# Problem 2: Best time to Buy and Sell stock.
+# Problem 2 -> Best time to Buy and Sell stock.
 **[ Implementation ](https://github.com/iftab/Interview-Prep/blob/main/BuyStock.java)**
     Consider selling stock every day and keep track of the minimum cost before that index.
 
     
-# Problem 3: Array Rotation from kth index.
+# Problem 3 -> Array Rotation from kth index.
 **[ Implementation ](https://github.com/iftab/Interview-Prep/blob/main/Solution_Array_Rotation_Problem.java)**
   1. Rotate the full array from index 0 to length - 1.
   2. Rotate the array from 0 to k.
   3. Rotate the array from k+1 to length - 1.
 
 # Problem 4: Kadane Algorithm: Maximum Subarray Sum in an Array.
-    
+** [ Implementation ]()**
+  1. Calculate product of all elements left to iterating item i.e., Prefix Product Array.
+  2. Calculate product of all elements right to iterating item i.e., Suffix Product Array.
+  3. Product for both the indexed array  i.e., nums[i] = preffix[i] * suffix[i]
+     Time Complexity: O(N), where N = array size.
