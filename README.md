@@ -9,7 +9,7 @@
 5. **toString()** - _Overrides toString() method print items in LIFO (Last In First Out) order._
 
 ## Data Structure ##
-                                                         **ARRAY**
+                                                   **ARRAY**
 # Problem 1 -> Two Sum: Check if a pair with a given sum exists in Array 
 **Approach 1: Naive Approach(Brute-force approach)**
   Using two **for**  to iterate through the array and find a pair of others.
