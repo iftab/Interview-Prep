@@ -9,7 +9,7 @@
 5. **toString()** - _Overrides toString() method print items in LIFO (Last In First Out) order._
 
 ## Data Structure ##
-                                  **ARRAY**
+                                                         **ARRAY**
 # Problem 1 -> Two Sum: Check if a pair with a given sum exists in Array 
 **Approach 1: Naive Approach(Brute-force approach)**
   Using two **for**  to iterate through the array and find a pair of others.
@@ -29,8 +29,8 @@
   2. Rotate the array from 0 to k.
   3. Rotate the array from k+1 to length - 1.
 
-# Problem 4: Kadane Algorithm: Maximum Subarray Sum in an Array.
-** [ Implementation ]()**
+# Problem 4 -> Product of Array Except Self.
+**[ Implementation ](https://github.com/iftab/Interview-Prep/blob/main/ProductExceptSelf.java)**
   1. Calculate product of all elements left to iterating item i.e., Prefix Product Array.
   2. Calculate product of all elements right to iterating item i.e., Suffix Product Array.
   3. Product for both the indexed array  i.e., nums[i] = preffix[i] * suffix[i]
