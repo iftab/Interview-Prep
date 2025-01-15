@@ -35,3 +35,9 @@
   2. Calculate product of all elements right to iterating item i.e., Suffix Product Array.
   3. Product for both the indexed array  i.e., nums[i] = preffix[i] * suffix[i]
      Time Complexity: O(N), where N = array size.
+
+# Problem 5 -> Maximum Subarray Sum.
+**[ Implementation ](https://github.com/iftab/Interview-Prep/blob/main/MaxSubArraySum.java)**
+1. Calcute SUM after each iteration.
+2. Check if it greater then MAX if Yes, set MAX = SUM.
+3. Donot consider SUM as -ve.
